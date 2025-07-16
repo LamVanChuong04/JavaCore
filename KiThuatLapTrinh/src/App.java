@@ -21,5 +21,33 @@ public class App {
         StringBuffer sb2 = new StringBuffer("Hello");
         System.out.println(sb == sb2); // false, vì sb và sb2 là hai đối tượng khác nhau trong heap
         System.out.println(sb.toString().equals(sb2.toString())); // true,
+
+        // tìm số chẵn lẻ mà ko dùng toán tử %
+        int x = 10; // 1010 & 0001
+        if ((x & 1) == 0) {
+            System.out.println("x là số chẵn");
+        } else {
+            System.out.println("x là số lẻ");
+
+        }
+        // chuyển đổi số nguyên sang nhị phân
+        String t = "";
+        while(x>0){
+            t = x % 2 + t;
+            x = x / 2;
+        }
+        System.out.println("Số nhị phân của x là: " + t);
+
+        // chuyển đổi số nhị phân sang số nguyên
+        String binary = "1101";
+        int d = 0;
+        int n = binary.length();
+        for(int i = 0; i<n; i++){
+            char bit = binary.charAt(n - 1 - i);
+            if(bit == '1'){
+                d += Math.pow(2, i);
+            }
+        }
+        System.out.println("Số nguyên của chuỗi nhị phân " + binary + " là: " + d);
     }
 }
