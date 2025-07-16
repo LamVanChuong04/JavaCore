@@ -30,6 +30,12 @@ public class App {
             System.out.println("x là số lẻ");
 
         }
+        // swap mà ko dùng biến tạm
+        int a1 = 5, a2 = 10;
+        a1 = a1 ^ a2; 
+        a2 = a1 ^ a2; // a2 = a1 ^ a2 ^ a2 = a1=5
+        a1 = a2 ^ a1; // a1 = a1 ^ a2 ^ a1 = a2=10
+        System.out.println("a1 = " + a1 + ", a2 = " + a2); 
         // chuyển đổi số nguyên sang nhị phân
         String t = "";
         while(x>0){
