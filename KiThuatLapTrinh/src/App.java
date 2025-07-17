@@ -1,5 +1,6 @@
-public class App {
+import java.util.Scanner;
 
+public class App {
     public static void main(String[] args) throws Exception {
         // có 2 kiểu dữ liệu: nguyên thủy và tham chiếu
         // nguyên thủy: int, float, double, boolean, char, byte, short
@@ -55,5 +56,33 @@ public class App {
             }
         }
         System.out.println("Số nguyên của chuỗi nhị phân " + binary + " là: " + d);
+
+
+        // Vòng lặp: for, while, do-while
+        // for: lặp với điều kiện xác định trước
+        System.out.println("Nhập n: ");
+        Scanner scanner = new Scanner(System.in);
+        int z = scanner.nextInt();
+        for(int i = 0; i< 10; i++){
+            if (i == 5){
+                continue;// không thực hiện câu lệnh bên dưới, quay lại vòng lặp
+            }
+            System.out.printf(" %d * %d = %d%n", z, i, z * i);
+            
+        }
+        // while: lặp với điều kiện không xác định trước
+        
+    String day = "MONDAY";
+
+    switch (day) {
+        case "MONDAY":
+            System.out.println("Thứ hai");
+            break;
+        case "TUESDAY":
+            System.out.println("Thứ ba");
+            break;
+        default:
+            System.out.println("Không rõ ngày");
+        }
     }
 }
