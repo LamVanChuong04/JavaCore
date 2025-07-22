@@ -1,15 +1,14 @@
+
+
 public class Brother {
     private String name;
     private int age;
     // biến static chỉ cấp phát bộ nhớ 1 lần, các lớp con có thể sử dụng
     // method static không override, chỉ có thể gọi đến biến static
-
-    static int t= 100;
-    static int count = 0;
+    public final int t = 100;
+    protected String addr = "BÌNH ĐỊNH";
     // Constructor
     public Brother(){
-        count++;
-        System.out.println(count);
     }
     public Brother(String name, int age) {
         this.name = name;
@@ -43,9 +42,11 @@ public class Brother {
     }
     // không thể ghi đè
     public static void foo(){
-        
-        System.out.println("Static method in Brother class"+ t);
+        System.out.println("Static method in Brother class");
     }
     
+    public final void finalMethod(){
+        System.out.println("METHOD FINAL IN BROTHER CLASS");
+    }
     
 }

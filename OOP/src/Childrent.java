@@ -1,17 +1,21 @@
-public class Childrent extends Brother{
-    private String school;
-
-    public Childrent(String school) {
-        this.school = school;
-    }
-    public Childrent(){}
+public class Childrent extends Brother implements Person, Person2 {
     @Override
-    public void print(){
-        System.out.println("Hello from Childrent class!");
+    public void eat() {
+        System.out.println("Childrent is eating");
     }
-    public static void foo(){
-        t = 500;
-        System.out.println("Static method in Childrent class: " + t);
+    @Override
+    public void sleep() {
+        System.out.println("Childrent is sleeping");
+    }
+    public Childrent(){
 
+    }
+    @Override
+    public int add(int a, int b) {
+        return a + b;
+    }
+    @Override
+    public float add(float a, float b) {
+        return a + b;
     }
 }

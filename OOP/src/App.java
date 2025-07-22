@@ -4,7 +4,12 @@ public class App {
         Brother br2 = new Brother();
         Brother br3 = new Brother();
         
-        Brother br4 = new Childrent();
-        br4.print();
+        
+        br3.addr = "HÀ NỘI";
+        System.out.println(br3.addr);
+        br1.finalMethod();
+        Childrent child = new Childrent();
+        child.eat();
+        child.sleep();
     }
 }
