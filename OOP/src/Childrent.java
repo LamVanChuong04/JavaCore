@@ -1,4 +1,4 @@
-public class Childrent extends Brother implements Person, Person2 {
+public class Childrent extends Brother implements Person{
     @Override
     public void eat() {
         System.out.println("Childrent is eating");

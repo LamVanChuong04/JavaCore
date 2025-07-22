@@ -16,8 +16,10 @@
 + private: truy cập trong phạm vi của class
 + protected: truy cập trong 1 package hoặc lớp con kế thừa
 
-# Tính kế thừa: đơn kế thừa
+# Tính kế thừa: đơn kế thừa, không hỗ trợ đa kế thừa
 # Interface: là một giao diện chứa các phương thức trừu tượng chỉ có định nghĩa, biến constant(final, static), method static/default
-- Khi lớp con extends từ interface thì phải override lại các method abstract đó.
-- Không có contructor
+- Khi lớp con extends từ interface phải override lại các method abstract đó.
+- Không có contructor -> không tạo đối tượng
 - Hỗ trợ đa kế thừa
+
+# Tính trừu tượng:

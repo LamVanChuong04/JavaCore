@@ -1,4 +1,4 @@
-public interface Person {
+public interface Person extends Person2 {
     public final String name = "lâm văn chương";
     
     public void eat();
@@ -11,4 +11,6 @@ public interface Person {
         System.out.println("Person is printing");
     }
     public int add(int a, int b);
+
+    public float add(float a, float b);
 }
