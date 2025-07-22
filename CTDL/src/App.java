@@ -68,4 +68,6 @@ public class App {
             return BSD(a, left, mid - 1, x); // tìm kiếm nửa bên trái
         }
     }
+    // Các thuật toán sắp xếp:
+    // 1. Sắp xếp 
 }
