@@ -1,21 +1,19 @@
-public class Childrent extends Brother implements Person{
+public class Childrent extends AbstractExample {
+
+    public Childrent(String phone) {
+        super(phone);
+    }
+    @Override
+    public void listen() {
+        System.out.println("Listening in Childrent");
+    }
     @Override
     public void eat() {
-        System.out.println("Childrent is eating");
+        System.out.println("Eating in Childrent");
     }
     @Override
     public void sleep() {
-        System.out.println("Childrent is sleeping");
+        System.out.println("Sleeping in Childrent");
     }
-    public Childrent(){
-
-    }
-    @Override
-    public int add(int a, int b) {
-        return a + b;
-    }
-    @Override
-    public float add(float a, float b) {
-        return a + b;
-    }
+   
 }

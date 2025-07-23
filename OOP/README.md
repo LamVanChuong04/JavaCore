@@ -21,5 +21,11 @@
 - Khi lớp con extends từ interface phải override lại các method abstract đó.
 - Không có contructor -> không tạo đối tượng
 - Hỗ trợ đa kế thừa
+- Extends từ các interface khác, còn class và class abstraction thì không 
+- Không phải là class mà là interface
+# Tính trừu tượng: che giấu đi các thông tin chi tiết chỉ hiển thị các chức năng
+- Gồm các phương thức static và non-static, hàm khởi tạo, phương thức trừu tượng, access modifiers
+- Extends từ class và implement interface, hỗ trợ đơn kế thừa
+- Có constructor nhưng không khởi tạo được đối tượng, được gọi thông qua từ khóa super() trong Constructor của lớp con kế thừa
+- 
 
-# Tính trừu tượng:

@@ -8,8 +8,10 @@ public class App {
         br3.addr = "HÀ NỘI";
         System.out.println(br3.addr);
         br1.finalMethod();
-        Childrent child = new Childrent();
-        child.eat();
-        child.sleep();
+        AbstractExample child = new Childrent("0987654321");
+        
+        child.listen();
+        
+    
     }
 }
