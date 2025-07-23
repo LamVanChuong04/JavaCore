@@ -1,26 +1,28 @@
 public abstract class AbstractExample implements InterfaceExample {
-    private String phone;
-    final int age = 21;
+   private String name;
 
-    
+   public static int count = 0;
 
-    public AbstractExample(String phone) {
-        this.phone = phone;
-        System.out.println("SĐT:"+ phone);
+   final int c = 47;
 
+   public AbstractExample(String name) {
+        this.name = name;
+        System.out.println("name: "+ name);
+    //    count++;
+    //    System.out.println("Count: " + count);
+
+   }
+
+    public String getName() {
+         return name;
     }
-    public static void print(){
-        System.out.println("This is a static method in AbstractExample");
+    public void setName(String name) {
+         this.name = name;
     }
-    public final void finalMethod(){
-        System.out.println("This is a final method in AbstractExample");
+    public abstract void display();
+
+    public void makeSound() {
+        System.out.println("Animal makes sound hẹ hẹ hẹ hẹ");
     }
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-    public String getPhone() {
-        return phone;
-    }
-    public abstract void listen();
 
 }

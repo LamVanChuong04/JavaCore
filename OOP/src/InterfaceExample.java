@@ -1,15 +1,19 @@
 public interface InterfaceExample {
-    final String addr = "HÀ NỘI";
-    public static int number = 10;
+    final int x = 10;
+    public static int y = 12;
 
     public void eat();
-    public void sleep();
+    public void move();
 
-    public static void print() {
-        System.out.println("This is a static method in InterfaceExample");
+    public static void methodStatic(){
+        System.out.println("Static method in InterfaceExample");
     }
-    public default void walk() {
-        System.out.println("Walking in InterfaceExample");
+    public default void methodDefault(){
+        System.out.println("Default method in InterfaceExample");
+    }
+    
+    private void methodPrivate(){
+        System.out.println("Private method in InterfaceExample");
     }
     
 }
