@@ -36,5 +36,19 @@ public class App {
         System.out.println(a.size());
         a.get(10);
         
+        int e= 10;
+        int f= 20;
+        if(e < f){
+            return true;
+        }
+
+    }
+    public int test(int a, int b){
+        if(a < b){
+            return b;
+            System.out.println("a < b");
+        } else {
+            return b;
+        }
     }
 }
