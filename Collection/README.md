@@ -6,6 +6,7 @@ LinkedList: tương tự như arraylist, các phần tử liên kết với nhau
 - Truy cập ngẫu nhiên phần tử chậm hơn ArrayList
 - Lãng phí bộ nhớ, khó quản lý nếu dùng không đúng cách
 Vector: tương tự như ArrayList nhưng đồng bộ, 1 thời điểm chỉ chạy 1 thread
+Một số phương thức: add(), remove(), clear(), isEmpty(), size(),...
 2. Interface Set: HashSet, LinkedHashSet, TreeSet
 3. Interface Queue: ArrayDeque, ProrityDeque
 # 2. Map Collection
