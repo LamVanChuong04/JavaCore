@@ -17,3 +17,7 @@ Set: HashSet, TreeSet, LinkedListSet
 Deque: PriorityQueue
 - Interface map: map: HashMap, LinkedHashMap, TreeMap
 
+# day 4: EXCEPTION
+- Built-in Exception: checked-exception/ unchecked exception
+- User-defined Exception
+- Try-catch-Finally
