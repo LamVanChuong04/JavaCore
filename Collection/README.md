@@ -8,6 +8,8 @@ LinkedList: tương tự như arraylist, các phần tử liên kết với nhau
 Vector: tương tự như ArrayList nhưng đồng bộ, 1 thời điểm chỉ chạy 1 thread
 Một số phương thức: add(), remove(), clear(), isEmpty(), size(),...
 2. Interface Set: HashSet, LinkedHashSet, TreeSet
-3. Interface Queue: ArrayDeque, ProrityDeque
+
+3. Interface Queue: ArrayDeque, ProrityQueue
 # 2. Map Collection
 HashMap, LinkedHashMap, TreeMap
+- 
