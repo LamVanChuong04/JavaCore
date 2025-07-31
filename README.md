@@ -21,3 +21,9 @@ Deque: PriorityQueue
 - Built-in Exception: checked-exception/ unchecked exception
 - User-defined Exception
 - Try-catch-Finally
+- Throw/Throws
+- Handling NullPointer
+- Extends Exception, Extends RuntimeException
+- Exception handling method overriding 
+
+# day 5: FILE HANDLING

@@ -14,17 +14,17 @@ Ví dụ: phép toán bất hợp pháp, truy cập index mảng mà không hợ
 - Cuối cùng thực hiện khối finally nếu có dù khối catch có thực hiện thành công hay không
 
 # final, finally, finalize
-- final: biến, method, class sử dụng thì không thể thay đổi, kế thừa
+- final: biến, method, class sử dụng thì không thể thay đổi giá trị, kế thừa
 - finally: Finally Block luôn được thực hiện cho dù exception handling như thế nào
-- finalize: method được trình thu gom rác gọi ra trước khi removed đối tượng khỏi bộ nhớ 
-
+- finalize: method được trình thu gom rác gọi ra trước khi removed đối tượng khỏi bộ nhớ.
+- Có System.exit(0) thì finally không thực thi
 # Xử lý trường hợp NullPointer
 - equals()
 - dùng toán tử 3 ngôi
 - kiểm tra đối số phương thức
 
 # Throw/Throws
-- Throws: nằm sau phương thức, dùng cho checked Exception, có thể có throw, la lên có exception, buộc phải xử lý 
+- Throws: nằm sau phương thức, dùng cho checked Exception, có thể có throw, "la" lên có exception, buộc phải xử lý 
 - Throw: nằm bên trong hàm, phương thức, bắt buộc có throws khi checked exception, chủ động ném
 
 # User-defined Customer Exception
