@@ -12,3 +12,13 @@ Ví dụ: phép toán bất hợp pháp, truy cập index mảng mà không hợ
 - Nếu có exception thì thực hiện khối catch
 - Nếu không tìm thấy khối catch nào khớp thì JVM thực hiện exception mặc định
 - Cuối cùng thực hiện khối finally nếu có dù khối catch có thực hiện thành công hay không
+
+# final, finally, finalize
+- final: biến, method, class sử dụng thì không thể thay đổi, kế thừa
+- finally: Finally Block luôn được thực hiện cho dù exception handling như thế nào
+- finalize: method được trình thu gom rác gọi ra trước khi removed đối tượng khỏi bộ nhớ 
+
+# Xử lý trường hợp NullPointer
+- equals()
+- dùng toán tử 3 ngôi
+- kiểm tra đối số phương thức
