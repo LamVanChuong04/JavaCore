@@ -1,18 +1,17 @@
-## Getting Started
+# Các luồng(Stream) trong java
+- Luồng character: Hỗ trợ nhập xuất dữ liệu kiểu kí tự (Unicode)
++ Dùng 2 abstract class: reader, writer
+- Luồng byte: Hỗ trợ nhập xuất dữ liệu trên byte, thường đọc ghi dữ liệu dạng nhị phân.
++ Dùng 2 abstract class: inputstream, outputstream
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Quy trình cơ bản sẽ gồm 4 bước chính:
+Bước 1: Tạo đối tượng luồng
+Bước 2: Tiến hành liên kết với nguồn dữ liệu.
+Bước 3: Thao tác dữ liệu (đọc hoặc ghi hoặc cả hai).
+Bước 4: Đóng luồng.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Các thao tác với file:
+- Create a File
+- Read from a File
+- Write to a File
+- Delete a File

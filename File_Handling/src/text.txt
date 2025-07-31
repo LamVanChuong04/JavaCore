@@ -1,0 +1,3 @@
+Xin chào, Dòng này tôi mới ghi vào file lần 1.
+Xin chào, Dòng này tôi mới ghi vào file lần 2.
+Xin chào, Dòng này tôi mới ghi vào file lần 3.
