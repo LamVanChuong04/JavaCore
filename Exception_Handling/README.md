@@ -22,3 +22,11 @@ Ví dụ: phép toán bất hợp pháp, truy cập index mảng mà không hợ
 - equals()
 - dùng toán tử 3 ngôi
 - kiểm tra đối số phương thức
+
+# Throw/Throws
+- Throws: nằm sau phương thức, dùng cho checked Exception, có thể có throw, la lên có exception, buộc phải xử lý 
+- Throw: nằm bên trong hàm, phương thức, bắt buộc có throws khi checked exception, chủ động ném
+
+# User-defined Customer Exception
+- extends Exception
+- extends RuntimeException
