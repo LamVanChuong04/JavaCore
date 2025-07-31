@@ -30,3 +30,12 @@ Ví dụ: phép toán bất hợp pháp, truy cập index mảng mà không hợ
 # User-defined Customer Exception
 - extends Exception
 - extends RuntimeException
+
+# Exception handling with overriding method
+- Class cha không khai báo method throws exception
+1. Nếu super không khai báo thì sub chỉ throws RuntimeException
+2. Nếu super không khai báo thì sub không throws Exception
+- Ngược lại
+1. Nếu super throws RuntimeException/Exception thì sub có thể dùng RuntimeException/Exception
+2. Nếu super throws 1 Exception thì sub chỉ dùng 1 Exception cùng loại
+3. Nếu super throws thì sub có thể không dùng
