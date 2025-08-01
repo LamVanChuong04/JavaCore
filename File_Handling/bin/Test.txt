@@ -1,0 +1,2 @@
+[ID=1, hoTen=nsglgalg, tuoi=12, luong=10]
+[ID=12, hoTen=agalglg, tuoi=21, luong=1200]
