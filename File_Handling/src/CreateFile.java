@@ -12,6 +12,9 @@ public class CreateFile {
             } else {
                 System.out.println("File already exists.");
             }
+            // xóa file
+            f.delete();
+            System.out.println("File deleted: " + f.getName());
         }catch(IOException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();

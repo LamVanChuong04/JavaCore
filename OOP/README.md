@@ -5,7 +5,7 @@
 
 # final: variable, method, class
 - Biến: không thể thay đổi giá trị
-- Method final: không thể override, không kế thừa
+- Method final: không thể override, không kế thừa, contructor ko có final
 - Class final: không thể kế thừa
 # Tính đa hình: một đối tượng hay 1 phương thức có các hình thái, hình thức khác nhau
 - Override (ghi đè): Lớp con có thể ghi đè/ chỉnh sửa phương thức của lớp cha

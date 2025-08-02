@@ -97,7 +97,7 @@ public class NhanVien {
         try{
             // tạo luồng dữ liệu và liên kết với nguồn dữ liệu
             File file = new File(fileName);
-            FileWriter fw = new FileWriter(file); // true để ghi nối tiếp
+            FileWriter fw = new FileWriter(file); 
 
             // ghi dữ liệu vào file
             for (NhanVien nv : dsNhanVien) {
